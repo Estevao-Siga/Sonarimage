@@ -5,6 +5,8 @@
 
 dataset/
 results/
+models/weights/
+.idea/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
