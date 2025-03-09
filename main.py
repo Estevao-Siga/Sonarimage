@@ -6,7 +6,6 @@ from arg_parser import parse_args
 from data_loader import (get_data_paths, get_class_mappings, visualize_image_with_annotation_bboxes,
                          get_image_dimensions, create_yaml_file, list_available_datasets,
                          verify_dataset_structure)
-# Fix import statement - move to top-level import to ensure it's available
 from models.model_loader import ModelLoader, download_model, load_model
 from train import setup_font_properties, train_model, visualize_training_metrics
 from test import run_test
