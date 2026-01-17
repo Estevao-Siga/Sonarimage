@@ -18,6 +18,12 @@ class DatasetRegistry:
             'default_path': 'dataset/seabedok'
         },
 
+        'seabed': {
+            'classes': ['fish', 'human', 'mine', 'plane', 'seafloor', 'ship'],
+            'description': 'Seabed multi-class sonar dataset (YOLO-format)',
+            'default_path': 'dataset/seabed'
+        },
+
 
     }
 
